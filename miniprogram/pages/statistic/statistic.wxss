@@ -5,6 +5,13 @@ page{
 }
 
 .container{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
   height: 100%;
   display: flex;
   justify-content: center;

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "mp-msg": "../../lib/weui-miniprogram/msg/msg"
-  }
+  },
+  "navigationBarTitleText": "使用帮助"
 }

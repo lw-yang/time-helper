@@ -34,7 +34,7 @@ page{
 
 .setting{
   width: 100%;
-  flex: 4;
+  flex: 3;
   background-color: white;
 }
 
@@ -56,7 +56,6 @@ page{
 
 .nickname {
   margin-top: 30rpx;
-  margin-bottom: 20rpx;
   font-size: 34rpx;
   color: black;
   text-align: center;

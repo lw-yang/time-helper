@@ -1,3 +1,6 @@
 <!--miniprogram/pages/statistic/statistic.wxml-->
-<text>miniprogram/pages/statistic/statistic.wxml</text>
-<view class="container">待开发...</view>
+miniprogram/pages/statistic/statistic.wxml
+<view class="container">
+	
+	<view class="text">待开发...</view> 
+</view>

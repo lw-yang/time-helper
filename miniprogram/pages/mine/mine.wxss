@@ -1,0 +1,151 @@
+/* miniprogram/pages/mine/mine.wxss */
+page{
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userinfo{
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.user{
+  flex: 1;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms ease;
+  padding-top: 50rpx;
+  /* padding-bottom: 10rpx; */
+  background-color: white;
+}
+
+.setting{
+  width: 100%;
+  flex: 4;
+  background-color: white;
+}
+
+.userinfo-avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+.userinfo-avatar[size] {
+  width: 160rpx;
+}
+
+.userinfo-avatar:after {
+  border: none;
+}
+
+.nickname {
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  font-size: 34rpx;
+  color: black;
+  text-align: center;
+}
+
+.daily-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 20rpx;
+}
+.daily-text-1{
+  text-align: center;
+  padding: 30rpx 0 8rpx 30rpx;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.daily-text-2{
+  text-align: center;
+  padding: 8rpx 0 30rpx 30rpx;
+  font-size: 14px;
+  color: #bfbfbf;
+  border-bottom: #f0f0f0 solid 20rpx;
+}
+
+.setting-info{
+  border-bottom: #f0f0f0 solid 20rpx;
+}
+.seperator{
+  margin-left: 16px;
+  border-top: #f0f0f0 solid 1rpx;
+}
+
+.about[size]{
+  text-align: left;
+  width: 100%;
+  margin: 2rpx;
+  padding: 28rpx 0rpx 28rpx 16px;
+  font-weight: initial;
+  font-size: 16px;
+  background-color: white;
+}
+.hover-class{
+  color: #bfbfbf;
+}
+.remind-text{
+  color: #bfbfbf;
+  text-align: left;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10rpx;
+  padding-bottom: 20rpx;
+  font-size: 15px;
+}
+.key{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  color: #8a8a8a;
+}
+.value{
+  display: flex;
+  justify-content: flex-start;
+  flex: 3;
+  color: #bfbfbf;
+}
+.text{
+  padding-top: 20rpx;
+  font-style: italic;
+  color: #8a8a8a;
+}
+.footer{
+  text-align: center;
+  font-size: 12px;
+  color: #bfbfbf;
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.about-dialog .weui-half-screen-dialog__ft{
+  padding-top: 40rpx;
+}
+
+
+

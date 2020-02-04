@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-cell": "../../lib/weui-miniprogram/cell/cell",
+    "mp-cells": "../../lib/weui-miniprogram/cells/cells",
+    "mp-dialog": "../../lib/weui-miniprogram/dialog/dialog",
+    "mp-halfScreenDialog": "../../lib/weui-miniprogram/half-screen-dialog/half-screen-dialog"
+    
+  },
+  "navigationBarTitleText": "你的时间助手"
+}

@@ -1,0 +1,23 @@
+/* miniprogram/pages/help/help.wxss */
+
+.msg .weui-msg__icon-area{
+  margin-bottom: 5rpx;
+}
+
+.text-desc{
+  padding-top: 40rpx;
+  text-align: left;
+  font-size: 14px;
+}
+
+.text-extend{
+  text-align: left;
+  font-size: 13px;
+  color: #707070;
+}
+
+.seperator{
+  border: none;
+  height: 30rpx;
+  background-color: white;
+}

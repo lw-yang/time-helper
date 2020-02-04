@@ -1,0 +1,73 @@
+/* plan/plan.wxss */
+page{
+  height: 90%;
+  background-color: #fefdf0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+swiper{
+  width: 100%;
+  height: 350rpx;
+}
+.swiper-item{
+  width: 100%;
+  height: 350rpx;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 1rpx; */
+}
+.short{
+  width: 100%;
+  flex: 1.5;
+  background-color: #ebf7fe;
+  display: flex;
+  flex-direction: column;
+
+}
+.long{
+  width: 100%;
+  flex: 1;
+  background-color: #fefdf0;
+  display: flex;
+  flex-direction: column;
+
+}
+.short-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707070;
+  border: #bfbfbf solid 1rpx;
+  border-radius: 800rpx;
+  background-color: white;
+}
+.short-text{
+  width: 88%;
+  height: 73%;
+  background-color: #ebf7fe;
+  padding: 30rpx 50rpx;
+}
+
+.long-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707070;
+  border: #bfbfbf solid 1rpx;
+  border-radius: 800rpx;
+  background-color: white;
+}
+.long-text{
+  width: 88%;
+  height: 80%;
+  background-color: #fefdf0;
+  padding: 30rpx 50rpx;
+}

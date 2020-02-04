@@ -1,0 +1,69 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="container">
+	<movable-area class="quadrant">
+		<view class="one-two">
+			<view id="one-quadrant">
+				<view class="header">
+					<view class="title">重要且紧急</view>
+					<!-- <view class="icon" bindtap="addPlanOne">
+						<mp-icon icon="add" color="#c5c5c5" size="{{16}}"></mp-icon>
+					</view> -->
+				</view>
+
+				<view class="content">
+					<!-- <movable-view direction="all">
+            <view class="move-plan">紧急 </view>
+          </movable-view> -->
+				<textarea bindblur="bindTextAreaBlurOne" class="top-textarea" style="width: 100%" maxlength="1000" value="{{onePlanList}}"/>
+				</view>
+
+			</view>
+			<view id="two-quadrant">
+				<view class="header">
+					<view class="title">重要非紧急</view>
+					<!-- <view class="icon" bindtap="addPlanTwo">
+						<mp-icon icon="add" color="#c5c5c5" size="{{16}}"></mp-icon>
+					</view> -->
+				</view>
+
+				<view class="content">
+          <textarea bindblur="bindTextAreaBlurTwo" class="top-textarea" style="width: 100%" maxlength="1000" value="{{twoPlanList}}"/>
+					<!-- <view wx:for="{{twoPlanList}}">
+						{{index+1}}: {{item.plan}}
+					</view> -->
+				</view>
+
+			</view>
+		</view>
+
+		<view class="three-four">
+			<view id="three-quadrant">
+				<view class="header">
+					<view class="title">非重要紧急</view>
+					<!-- <view class="icon" bindtap="addPlanThree">
+						<mp-icon icon="add" color="#c5c5c5" size="{{16}}" ></mp-icon>
+					</view> -->
+				</view>
+
+				<view class="content">
+				<textarea bindblur="bindTextAreaBlurThree" class="bottom-textarea" style="width: 100%" maxlength="1000" value="{{threePlanList}}"/>
+				</view>
+
+			</view>
+			<view id="four-quadrant">
+				<view class="header">
+					<view class="title">非重要非紧急</view>
+					<!-- <view class="icon" bindtap="addPlanFour">
+						<mp-icon icon="add" color="#c5c5c5" size="{{16}}"></mp-icon>
+					</view> -->
+				</view>
+
+				<view class="content">
+					<textarea bindblur="bindTextAreaBlurFour" class="bottom-textarea" style="width: 100%" maxlength="1000" value="{{fourPlanList}}"/>
+				</view>
+
+			</view>
+		</view>
+
+	</movable-area>
+</view>

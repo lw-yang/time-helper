@@ -1,0 +1,27 @@
+<!--miniprogram/pages/help/help.wxml-->
+<view>
+
+	<mp-msg type="info" size="55" title="使用帮助" ext-class="msg">
+		<view slot="desc" class="text-desc">
+    时间管理的“四象限法则”：工作按照重要和紧急两个不同程度进行划分，可以分为四个象限：既紧急又重要，重要但不紧急，紧急但不重要，既不紧急也不重要
+    <navigator url="" class="weui-msg__link"></navigator>
+		</view>
+		<view slot="extend" >
+			<view class="text-extend">第一象限内的事情应该最先解决掉，但如果你总是有紧急又重要的事情要做，说明你可能浪费了很多时间，才导致自己的工作变得更加紧张，应避免连续去面对这种事情</view>
+<view class="seperator"></view>
+<view class="text-extend">
+我们应该尽可能地把时间花在重要但不紧急（第二象限）的事情上，想办法投资那些第二象限的事情是最重要的。</view>
+<view class="seperator"></view><view class="text-extend">
+至于第三象限（紧急但不重要）的事情，尽量没有必要浪费自己宝贵的时间去做，如果可以的话让别人去做，同时也确保了自己原有的工作不会受到干扰。</view>
+<view class="seperator"></view><view class="text-extend">
+第四象限的事情，由于根本没有任何价值，因此尽量不要去做，不然容易养成自我放纵的习惯。</view>
+		</view>
+		<!-- <view slot="handle">
+			
+		</view> -->
+		<view slot="footer">
+			<view class="weui-footer__text">Copyright © 2020 TimeHelper</view>
+		</view>
+	</mp-msg>
+
+</view>

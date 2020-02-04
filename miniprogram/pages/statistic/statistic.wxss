@@ -1,0 +1,14 @@
+/* miniprogram/pages/statistic/statistic.wxss */
+page{
+  height: 100%;
+  background-color: #fdf5f9;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8a8a8a;
+  font-size: 20px;
+}

@@ -42,32 +42,38 @@ swiper{
 }
 .short-title{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   color: #707070;
   border: #bfbfbf solid 1rpx;
   border-radius: 800rpx;
   background-color: white;
+  padding-top: 3rpx;
+  padding-bottom: 3rpx;
 }
 .short-text{
   width: 88%;
   height: 73%;
   background-color: #ebf7fe;
   padding: 30rpx 50rpx;
+  background-color: blueviolet;
 }
 
 .long-title{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   color: #707070;
   border: #bfbfbf solid 1rpx;
   border-radius: 800rpx;
   background-color: white;
+  padding-top: 3rpx;
+  padding-bottom: 3rpx;
 }
 .long-text{
   width: 88%;
   height: 80%;
   background-color: #fefdf0;
   padding: 30rpx 50rpx;
+  background-color: brown;
 }

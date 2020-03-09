@@ -48,15 +48,14 @@ swiper{
   border: #bfbfbf solid 1rpx;
   border-radius: 800rpx;
   background-color: white;
-  padding-top: 3rpx;
-  padding-bottom: 3rpx;
+  /* padding-top: 1rpx; */
+  /* padding-bottom: 1rpx; */
 }
 .short-text{
   width: 88%;
   height: 73%;
   background-color: #ebf7fe;
   padding: 30rpx 50rpx;
-  background-color: blueviolet;
 }
 
 .long-title{
@@ -75,5 +74,4 @@ swiper{
   height: 80%;
   background-color: #fefdf0;
   padding: 30rpx 50rpx;
-  background-color: brown;
 }

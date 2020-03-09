@@ -171,7 +171,7 @@ Component({
       if (typeof this.getTabBar === 'function' &&
         this.getTabBar()) {
         this.getTabBar().setData({
-          selected: 3
+          selected: 2
         })
       }
       wx.showShareMenu({
@@ -198,7 +198,7 @@ Component({
         return
       }
 
-      if (app.globalData.nickName === undefined) {
+      if (app.globalData.avatarUrl === undefined) {
         wx.cloud.downloadFile({
           fileID: 'cloud://timehelper.7469-timehelper-1301188962/user-unlogin.png',
           success: res => {

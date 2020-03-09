@@ -14,10 +14,10 @@
 					<view>管理时间</view>
 					<view slot="footer">{{days}} 天</view>
 				</mp-cell>
-				<mp-cell>
+				<!-- <mp-cell>
 					<view>是否提醒 (待开发)</view>
 					<switch slot="footer" checked="{{remindChecked}}" bindchange="remindChange" />
-				</mp-cell>
+				</mp-cell> -->
 			</mp-cells>
 
 			<button class="about" open-type="feedback" size="default">意见反馈</button>
@@ -48,7 +48,7 @@
 			<view class="about-text">
 				<view class="row">
 					<view class="key">Version: </view>
-					<view class="value">Alpha V1.0.0</view>
+					<view class="value">V1.0.0</view>
 				</view>
 				<view class="seperator"></view>
 				<view class="row text">

@@ -15,12 +15,12 @@ Component({
       "selectedIconPath": "/images/tabbar/m_dfm.png",
       "pagePath": "/pages/plan/plan"
     },
-    {
-      "text": "统计",
-      "iconPath": "/images/tabbar/m_aps(1).png",
-      "selectedIconPath": "/images/tabbar/m_aps.png",
-      "pagePath": "/pages/statistic/statistic"
-    },
+    // {
+    //   "text": "统计",
+    //   "iconPath": "/images/tabbar/m_aps(1).png",
+    //   "selectedIconPath": "/images/tabbar/m_aps.png",
+    //   "pagePath": "/pages/statistic/statistic"
+    // },
     {
       "text": "我的",
       "iconPath": "/images/tabbar/m_whms(1).png",
